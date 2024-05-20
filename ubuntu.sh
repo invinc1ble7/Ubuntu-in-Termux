@@ -7,4 +7,4 @@ proot-distro login ubuntu-lts -- apt upgrade -y
 proot-distro login ubuntu-lts -- apt install vncserver -y
 proot-distro login ubuntu-lts -- apt install xfce4 -y
 proot-distro login ubuntu-lts -- apt install xfce4-goodies -y
-cd ~ && rm-rf Ubuntu-in-Termux
+cd ~ && rm -rf Ubuntu-in-Termux
