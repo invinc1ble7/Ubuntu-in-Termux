@@ -3,7 +3,7 @@
 #### First of all, let's update and upgrade our packages and install git
 ```shell
 pkg update -y && pkg upgrade -y
-pkg install git
+pkg install git -y
 ```
 #### Now, we can install Ubuntu in Termux
 ```shell
