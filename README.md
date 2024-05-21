@@ -8,7 +8,7 @@ pkg install git -y
 #### Now, we can install Ubuntu in Termux
 ```shell
 git clone https://github.com/invinc1ble7/Ubuntu-in-Termux
-bash Ubuntu-in-Termux/ubuntu.sh 
+bash Ubuntu-in-Termux/ubuntu_vnc.sh 
 ```
  ### We installed Ubuntu now and can access it with the command ```ubuntu```
 ***
