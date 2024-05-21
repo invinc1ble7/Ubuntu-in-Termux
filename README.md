@@ -12,5 +12,5 @@ git clone https://github.com/invinc1ble7/Ubuntu-in-Termux && bash Ubuntu-in-Term
  ### We installed Ubuntu now and can access it with the command ```ubuntu```
 
 > [!TIP]
-> You can change the display resolution in the root account with `nano ../usr/bin/vncserver`
+> change the display resolution in the root with `nano ../usr/bin/vncserver`
 > To add DPI settings enter `echo 'Xft.dpi: 144' > ~/.Xressources` `144` can be changed to fit
