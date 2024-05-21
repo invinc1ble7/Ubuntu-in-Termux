@@ -15,4 +15,4 @@ git clone https://github.com/invinc1ble7/Ubuntu-in-Termux && bash Ubuntu-in-Term
 > Change the display resolution in the root with `nano ../usr/bin/vncserver`
 ***
 > [!TIP]
-> `echo 'Xft.dpi: 144' > ~/.Xressources` changes the DPI of the display.
+> `echo 'Xft.dpi: 144' > ~/.Xressources` changes the DPI of the display. Use it on the account where you use TightVNC.
