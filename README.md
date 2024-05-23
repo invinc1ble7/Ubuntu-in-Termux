@@ -2,13 +2,11 @@
 ### This easy script will download Ubuntu in your Termux terminal.
 #### First of all, let's update and upgrade our packages and install `git`
 ```shell
-pkg update -y && pkg upgrade -y
-pkg install git -y
+yes | pkg update && yes | pkg upgrade
 ```
 #### Now, we can install Ubuntu in Termux.
 ```shell
-git clone https://github.com/invinc1ble7/Ubuntu-in-Termux
-bash Ubuntu-in-Termux/ubuntu_vnc.sh 
+bash <(curl -s https://raw.githubusercontent.com/invinc1ble7/Ubuntu-in-Termux/main/ubuntu_vnc.sh)
 ```
  ### We installed Ubuntu now and can access it with the command ```ubuntu```
 ***
@@ -20,11 +18,9 @@ bash Ubuntu-in-Termux/ubuntu_vnc.sh
 ***
 # Ubuntu-in-Termux without VNC server
 ```shell
-pkg update -y && pkg upgrade -y
-pkg install git -y
+yes | pkg update && yes | pkg upgrade
 ```
 #### Now we will install Ubuntu in Termux without a VNC server.
 ```shell
-git clone https://github.com/invinc1ble7/Ubuntu-in-Termux
-bash Ubuntu-in-Termux/ubuntu.sh 
+bash <(curl -s https://raw.githubusercontent.com/invinc1ble7/Ubuntu-in-Termux/main/ubuntu.sh)
 ```
