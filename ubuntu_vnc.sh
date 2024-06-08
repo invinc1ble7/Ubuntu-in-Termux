@@ -1,4 +1,5 @@
 #!/bin/bash
+pkg update && pkg upgrade
 pkg install proot-distro -y && pd install ubuntu-oldlts
 echo 'cd ~ && pd login ubuntu-oldlts' > ../usr/bin/ubuntu
 chmod +x ../usr/bin/ubuntu
