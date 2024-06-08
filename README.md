@@ -13,10 +13,7 @@ bash <(curl -s https://raw.githubusercontent.com/invinc1ble7/Ubuntu-in-Termux/ma
 > `echo 'Xft.dpi: 144' > ~/.Xresources` changes the DPI of the display. Use it on the account where you use TightVNC.
 ***
 # Ubuntu-in-Termux without VNC server
-```shell
-pkg update && pkg upgrade
-```
-#### Now we will install Ubuntu in Termux without a VNC server.
+#### Let's install Ubuntu in Termux without a VNC server.
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/invinc1ble7/Ubuntu-in-Termux/main/ubuntu.sh)
 ```
