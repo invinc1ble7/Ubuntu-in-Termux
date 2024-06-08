@@ -1,4 +1,5 @@
 #!/bin/bash
+pkg update && pkg upgrade
 pkg install proot proot-distro -y && pd install ubuntu
 echo 'cd ~ && pd login ubuntu' > ../usr/bin/ubuntu
 chmod +x ../usr/bin/ubuntu
